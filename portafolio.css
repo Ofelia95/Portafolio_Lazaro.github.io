@@ -1,0 +1,118 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color:blue ;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+
+.m_horizontal{
+    display: flex;
+
+}
+    
+header ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+header ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.m_vertical{
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(138, 136, 136);
+}
+
+.m_vertical li{
+    margin: 10px 10px;
+}
+.m_horizontal > li:hover .m_vertical{
+    display: block;
+}
+
+
+/* BARRA DE MENU */
+
+
+
+
+
+
+
+
+
+/* seccion inicio */
+
+.sec1{
+    background: linear-gradient(rgb(3, 90, 250), rgb(1, 46, 114));
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+.sec2{
+    padding: 40px;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    ;
+}
+.gallery{
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    gap: 10px
+}
+.project{
+    background: #fff;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow:  0 4px 6px urba(0,0,0,0 1);
+    transition: transform 0,3s, box-shadow 0.3s;
+    width: 250px;
+
+}
+.project img{
+    width: 100%;
+    height: auto;
+}
+.project:hover{
+    box-shadow: 0 8px 10px rgba(0,0,0,0.2);
+}
+/*formulario*/
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+    
+}
+form input,form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid#ddd;
+    border-radius: 5px;
+
+}
+.frorm button{
+    background-color: blue;
+    
+}

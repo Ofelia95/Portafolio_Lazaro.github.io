@@ -1,0 +1,126 @@
+
+
+body{
+    background-color: chartreuse;
+    
+    
+}
+
+header nav{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+header nav ul{
+  display: flex;
+}
+
+header > nav > ul > li{
+  list-style: none;
+  margin: 30px;
+}
+
+.submenu{
+  padding: 0;
+}
+
+.submenu li{
+  background-color: aquamarine;
+  margin: 0;
+  padding: 10px;  
+  display: none;
+  position: absolute;
+}
+nav li:hover .submenu li{
+  display: block;
+}
+div{
+    color: blue;
+    flex-grow: inherit;
+}
+
+/*Estitlos de secciones*/
+  /*seccion 1 de det_servicio*/
+  .d_sec1{
+    text-align: center;
+
+  }
+  .d_contain_cards{
+    display: flex;
+    gap: 40px;
+    margin: 80px;
+  }
+  .d_contain_cards div{
+    box-shadow: 0px 0px 10px 2px
+    #ccc;
+  }
+  .d_contain_cards img{
+    max-width: 100px;
+    border-top:;
+
+  }
+  .d.sec3{
+    text-align: left;
+    padding: 0 50px;
+    margin: 25px;
+
+  }
+   .form{display: flex;
+  flex-direction: column;
+max: width 800px; 
+margin: 0 auto;
+} 
+ form input{
+  margin: 20px;
+  height: 40px;
+
+ } 
+select{
+  margin: 20px;
+  height: 40px;
+}
+button{
+  background-color: #62aef5;
+  height: 40px;
+  max-width: 80px;
+}
+/* ASAIDE*/
+.contain-main{
+  display: flex;
+  justify-self: auto;
+  flex-wrap: wrap;
+}
+aside{
+  padding: 10px;
+
+}
+aside li {list-style: none;
+margin: 10px;
+
+}
+
+main{
+  max-width: 800px;
+}
+aside{
+  max-width: 200px;
+}
+aside:last-child img{
+  max-width: 100px;
+border-radius: 15px;
+}
+    
+
+
+  
+    
+
+   
+    
+
+
+
+
+    
+
